@@ -1,14 +1,17 @@
 * {
+    /* Adds margin and padding to every element on the page if values are given */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* Sets the background color of the page */
     background-color: #d9dcd6;
 }
 
 .header {
+    /* Sets the padding,font-family and color options of the header section of the page */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ body {
 }
 
 .header h1 {
+    /* Sets the display type and font size for the section of the header that reads "HORISEON" */
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /* Sets the color for the "SEO" section of "HORISEON" which is slightly darker than the rest of the word */
     color: #d9dcd6;
 }
 
 .header nav {
+    /* Sets the position, font-family, and size of the nav bar at the top of the page */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,20 +40,24 @@ body {
 
 
 .header nav ul li {
+    /* Sets the navbar buttons to appear in a row instead of a column  */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* Sets the color of the navbar buttons */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* Sets the font size of the text in the three paragraph sections of the page  */
     font-size: 16px;
 }
 
 .hero {
+    /* Sets the size, margins, and position as well as chooses the cover image for the page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -57,22 +67,26 @@ p {
 }
 
 .float-left {
+    /* Tells the image in the "Search Engine Optimization" and "Social Media Marketing" to be on the left side of the paragraph  */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Tells the image in the "Online Reputation Management" section to be on the right side of the paragraph */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* Sets the width, margin, and display type of the boxes that contain each main article section */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /* Sets the position, margins, padding, width, height, color, and font-family of the aside */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -84,22 +98,26 @@ p {
 }
 
 .benefit-1 {
+    /* Sets the bottom margin and text color of the three sections in the aside */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-1 h3 {
+    /* Sets the bottom margin and text alignment of the three headers in the aside section */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-1 img {
+    /* Sets the size, postion, and margin of the image that appear under the headers of the aside section */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .article {
+    /* Sets the margins, padding, height,font-family, and colors of the content inside of each box in the main article */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -109,16 +127,18 @@ p {
 }
 
 .article img {
+    /* Sets the size of each of the images in the main article section */
     max-height: 200px;
 }
 
 .header2 {
+    /* Sets the bottom margin and font size of the headers in the main article sectionn */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
 .footer {
+    /* Sets the padding, font-family, and alignment of the copyright/signature at the bottom of the page. also makes it so no other boxes can be adjacent to it */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -126,5 +146,6 @@ p {
 }
 
 .footer h2 {
+    /* Sets the font size of the section of the footer that says "Made with ❤️️ by Horiseon" */
     font-size: 20px;
 }
